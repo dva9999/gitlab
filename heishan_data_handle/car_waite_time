@@ -1,0 +1,19 @@
+import pandas as pd
+
+
+def car_waite_time_by_time(df):
+    """
+    计算每个时间段内车辆的等待时间
+    """
+
+
+
+def car_waite_time_by_car():
+    """
+    计算每辆车的等待时间
+    """
+    file_path = '2024-09-11.xlsx'
+    df = pd.read_excel(file_path)
+    #打印表格的第一行数据
+    print(df.head())
+    
